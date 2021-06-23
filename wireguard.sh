@@ -57,6 +57,8 @@ Endpoint = vpn.ctrl.txconnected.com:51820
 PublicKey = YOE5xUOVoObob6bSToU9EeB/Tx6IbceLnr1lGXj9mGs=
 AllowedIPs = 10.1.110.0/24, 10.127.0.0/16, 10.123.0.0/16, 10.128.0.0/16, 10.125.0.0/16, 10.121.0.0/16, 10.126.0.0/16, 10.117.0.0/16, 10.120.0.0/16, 10.118.0.0/16, 10.119.0.0/16, 10.18.0.0/16
 Persist = 50" >"/etc/wireguard/wg0.conf"
+    fi
+}
 
     # Start the WireGuard VPN
     # systemctl start wg-quick@wg0
