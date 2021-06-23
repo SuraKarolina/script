@@ -66,4 +66,3 @@ Persist = 50" >"/etc/wireguard/wg0.conf"
 
     # Verify the connection
     # sudo wg
-
